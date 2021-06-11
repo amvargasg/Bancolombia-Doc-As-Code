@@ -1,0 +1,50 @@
+
+/*shortcode diagrama_dominios*/
+div .mermaid {
+    margin: 0;
+    padding: 0;
+}
+
+/*shortcode archivos json y yaml*/
+.shortcodeJSON {
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    height: 400px;
+    width: 1000px;
+    overflow: scroll;
+    
+}
+
+.shortcodeJSON:hover {
+    background-color: rgb(230,230,230);
+}
+
+.shortcodeJSON .shortcodeJSON_file {
+    padding: 0 2rem;
+}
+
+.shortcodeDownload {
+    display: flex;
+}
+
+.shortcodeDownload .icon {
+    padding: 0 0 0 2rem;
+    height: 5%;
+    width: 5%;
+    order: 1;
+
+}
+
+.shortcodeDownload .icon img{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.shortcodeDownload .text_icon{
+    padding: 0 1rem;
+    height: 20%;
+    color: rgb(40,40,40);
+    order: 2;
+}
